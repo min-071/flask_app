@@ -1,0 +1,12 @@
+.card {
+    transition: transform 0.2s; /* Smooth scale effect */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+.card-img-top {
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Maintain aspect ratio */
+}
